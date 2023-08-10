@@ -4,6 +4,7 @@ import './global.css'
 
 import twitterLogo from './assets/logo-twitter.svg'
 import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, Sparkle, User } from '@phosphor-icons/react'
+import { Tweet } from './components/Tweet'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -66,6 +67,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           </form>
 
           <div className="separator" />
+
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
         </main>
       </div>
     </div>
