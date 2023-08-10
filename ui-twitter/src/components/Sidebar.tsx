@@ -1,6 +1,7 @@
 import './Sidebar.css'
 import { House, Hash, Bell, Envelope, BookmarkSimple, FileText, User, DotsThreeCircle } from "@phosphor-icons/react";
 import twitterLogo from '../assets/logo-twitter.svg'
+import { NavLink } from 'react-router-dom';
 
 
 export function Sidebar(){
@@ -9,26 +10,31 @@ export function Sidebar(){
     <img src={twitterLogo} alt="Logo" className='logo' />
 
     <nav className='main-navigation'>
-      <a href="#" className='active'>
+      <NavLink to="/">
         <House weight='fill'/>
         Home
-      </a>
+      </NavLink>
+
       <a href="#">
         <Hash />
         Explore
       </a>
+
       <a href="#">
         <Bell />
         Notifications
       </a>
+
       <a href="#">
         <Envelope />
         Messages
       </a>
+
       <a href="#">
         <BookmarkSimple />
         Bookmarks
       </a>
+
       <a href="#">
         <FileText />
         Lists
@@ -37,6 +43,7 @@ export function Sidebar(){
         <User />
         Profile
       </a>
+      
       <a href="#">
         <DotsThreeCircle />
         More
