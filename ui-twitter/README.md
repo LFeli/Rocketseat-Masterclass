@@ -1,27 +1,30 @@
-# React + TypeScript + Vite
+# UI do Twitter
+Esse projeto e de uma Masterclass da Rocketseat. Projeto no qual fazemos uma 'recriação' da antiga interface do Twitter que agora se chama "X" que se compõem basicamente pela timeline e parte de responder tweets, além de melhorar meus fundamentos no react e aprender alguns conceitos de roteamento, spa, otimização e etc.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## O que Eu Aprendi 🤔
+Neste projeto, tive a oportunidade de ampliar meu entendimento sobre o React de uma bem bacana. Para começar, já estava compreendendo muito bem o TailwindCSS, porém nesse projeto nos utilizamos o CSS Modules,que foi uma grande novidade para mim mesmo a atual documentação do REACT recomende usar um framework com o tailwind logo de inicio.
 
-Currently, two official plugins are available:
+A parte mais interessante dessa Masterclass sem sobre de duvida foi a parte de roteamento usando o REACT, no qual utilizamos o pacote [React Router](https://reactrouter.com/en/main) que é mantido pelo **remix** e alguns conceitos de **SPA**. Pois com isso foi possível 
+criar transições de conteúdo suaves sem a necessidade de recarregar a página inteira, o que trouxe uma sensação de fluidez. Também aprendi um pouco sobre manipulação de formulário e melhor entendimento sobre a variável `UseState`  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Testar o projeto
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+1. Abra seu terminal e faça o clone da pasta Masterclass:
+```sh
+git clone https://github.com/LFeli/Rocketseat-Masterclass.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Acesse a pasta do projeto:
+```sh
+cd ui-twitter
+```
+
+3. Instale as dependências:
+```sh
+npm install
+```
+
+4. Run no projeto:
+```sh
+npm run dev
+```
